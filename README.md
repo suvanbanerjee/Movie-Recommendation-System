@@ -1,4 +1,6 @@
-# movierecommender
+# Movie Recommendation System
+
+## Instalation
 Step 1: Run these commands on anaconda terminal
 
 conda install joblib
@@ -17,9 +19,11 @@ conda install scikit-learn
  
 conda install flask
 
-Step 2: Download the dataset from the link below
+## Dataset
 
 the link to the dataset https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+
+## Usage
 
 Add the following files to the dataset folder:
 credits.csv
