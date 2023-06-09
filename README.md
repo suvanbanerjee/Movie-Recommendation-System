@@ -1,33 +1,26 @@
-# movierecommender
-Step 1: Run these commands on anaconda terminal
+# Movie Recommendation System
 
-conda install joblib
+## Installation
+To set up and run the movie recommendation system on Anaconda locally
 
-conda install pandas 
+Step 1: Install the prerquisite on conda terminal
 
-conda install numpy 
-
-conda install ast 
-
-conda install nltk
-
+```
+conda install joblib pandas  numpy  ast  nltk scikit-learn flask 
 conda install -c conda-forge scikit-surprise 
+```
 
-conda install scikit-learn
- 
-conda install flask
+Step 2: Download the dataset from kaggle
 
-Step 2: Download the dataset from the link below
+[Click here](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) for the link
+After downloading the zip file unzip and add the correct path to following files in notebook
+- credits.csv
+- movies_metadata.csv
+- ratings.csv
 
-the link to the dataset https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+Step 3: Run the model.ipynb notebook to create ML model svd_model.plk 
 
-Add the following files to the dataset folder:
-credits.csv
-movies_metadata.csv
-ratings.csv
-
-3. Run the first.ipynb notebook to create your ML model svd_model.plk 
-This might take a while.
+Step 4: After secuessful execution run the predction.ipynb file to make recommendation
 
 
 
