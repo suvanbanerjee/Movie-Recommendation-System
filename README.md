@@ -13,6 +13,7 @@ conda install -c conda-forge scikit-surprise
 Step 2: Download the dataset from kaggle
 
 [Click here](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) for the link
+
 After downloading the zip file unzip and add the correct path to following files in notebook
 - credits.csv
 - movies_metadata.csv
