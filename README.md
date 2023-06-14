@@ -23,7 +23,7 @@ Step 3: Run the model.ipynb notebook to create ML model svd_model.plk
 
 Step 4: After secuessful execution run the predction.ipynb file to make recommendation
 
-
+Step 5: To run the Frontend, use streamlit run *path to app.py*
 
 
 
